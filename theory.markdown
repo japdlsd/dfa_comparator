@@ -9,3 +9,10 @@ $A := (A_1 - A_2) \cup (A_2 - A_1)$
 
 3. Construct set of "terminating" nonterminals of grammar $G$. 
    If it's empty, then $L(A_1) = L(A_2)$.
+
+OR
+
+1. Construct simmetric difference of $A_1$ and $A_2$: 
+$A := (A_1 - A_2) \cup (A_2 - A_1)$
+
+2. Construct reachable states of A.
